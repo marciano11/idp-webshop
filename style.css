@@ -1,0 +1,32 @@
+h1 {
+  color: #d17a22;
+}
+
+div.background {
+  background: url(6802.png) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 5px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 3%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
